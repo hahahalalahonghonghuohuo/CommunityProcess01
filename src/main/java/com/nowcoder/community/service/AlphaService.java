@@ -2,7 +2,6 @@ package com.nowcoder.community.service;
 
 import com.nowcoder.community.dao.AlphaDao;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.PostConstruct;
@@ -17,7 +16,7 @@ import javax.annotation.PreDestroy;
 // 演示 Spring 容器如何管理 bean 的生命周期，例如初始化、销毁等
 @Service
 // 默认是 @Scope("singleton")
-@Scope("prototype")
+//@Scope("prototype")
 public class AlphaService {
 
     // controller处理浏览器的请求，在这个过程中会调用业务组件service处理当前业务，
