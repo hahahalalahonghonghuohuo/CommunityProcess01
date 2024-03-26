@@ -1,0 +1,11 @@
+2024-03-26 21:04:21.893  INFO 8420 --- [main] com.nowcoder.community.LoggerTests       : Starting LoggerTests on Windows with PID 8420 (started by User1 in E:\JAVA\work\community)
+2024-03-26 21:04:21.894 DEBUG 8420 --- [main] com.nowcoder.community.LoggerTests       : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2024-03-26 21:04:21.894  INFO 8420 --- [main] com.nowcoder.community.LoggerTests       : No active profile set, falling back to default profiles: default
+2024-03-26 21:04:23.265  INFO 8420 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-03-26 21:04:23.424  INFO 8420 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-03-26 21:04:23.557  INFO 8420 --- [main] com.nowcoder.community.LoggerTests       : Started LoggerTests in 1.843 seconds (JVM running for 2.278)
+2024-03-26 21:04:23.908 DEBUG 8420 --- [main] com.nowcoder.community.LoggerTests       : debug log
+2024-03-26 21:04:23.908  INFO 8420 --- [main] com.nowcoder.community.LoggerTests       : info log
+2024-03-26 21:04:23.908  WARN 8420 --- [main] com.nowcoder.community.LoggerTests       : warn log
+2024-03-26 21:04:23.908 ERROR 8420 --- [main] com.nowcoder.community.LoggerTests       : error log
+2024-03-26 21:04:23.913  INFO 8420 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
