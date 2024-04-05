@@ -1,0 +1,18 @@
+2024-04-04 22:37:03,584 INFO [main] c.n.c.MailTests [StartupInfoLogger.java:50] Starting MailTests on Windows with PID 25980 (started by User1 in E:\JAVA\work\community)
+2024-04-04 22:37:03,589 INFO [main] c.n.c.MailTests [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2024-04-04 22:37:05,017 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2024-04-04 22:37:05,179 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2024-04-04 22:37:05,369 INFO [main] c.n.c.MailTests [StartupInfoLogger.java:59] Started MailTests in 2.066 seconds (JVM running for 2.595)
+2024-04-04 22:37:14,834 INFO [Thread-2] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2024-04-04 22:41:08,984 INFO [main] c.n.c.MailTests [StartupInfoLogger.java:50] Starting MailTests on Windows with PID 27436 (started by User1 in E:\JAVA\work\community)
+2024-04-04 22:41:08,985 INFO [main] c.n.c.MailTests [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2024-04-04 22:41:10,392 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2024-04-04 22:41:10,530 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2024-04-04 22:41:10,706 INFO [main] c.n.c.MailTests [StartupInfoLogger.java:59] Started MailTests in 1.931 seconds (JVM running for 2.302)
+2024-04-04 22:41:17,350 INFO [Thread-2] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2024-04-04 22:51:27,745 INFO [main] c.n.c.MailTests [StartupInfoLogger.java:50] Starting MailTests on Windows with PID 31376 (started by User1 in E:\JAVA\work\community)
+2024-04-04 22:51:27,745 INFO [main] c.n.c.MailTests [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2024-04-04 22:51:29,183 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2024-04-04 22:51:29,358 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2024-04-04 22:51:29,527 INFO [main] c.n.c.MailTests [StartupInfoLogger.java:59] Started MailTests in 1.997 seconds (JVM running for 2.365)
+2024-04-04 22:51:32,655 INFO [Thread-2] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
