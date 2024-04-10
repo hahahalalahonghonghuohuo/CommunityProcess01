@@ -1,23 +1,7 @@
-2024-04-05 10:38:29,148 WARN [http-nio-8080-exec-1] c.z.h.HikariConfig [HikariConfig.java:1008] {} - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
-2024-04-05 10:38:33,791 WARN [http-nio-8080-exec-3] c.z.h.HikariConfig [HikariConfig.java:1008] {} - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
-2024-04-05 10:48:09,334 WARN [http-nio-8080-exec-1] c.z.h.HikariConfig [HikariConfig.java:1008] {} - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
-2024-04-05 10:48:10,482 WARN [http-nio-8080-exec-2] c.z.h.HikariConfig [HikariConfig.java:1008] {} - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
-2024-04-05 10:53:28,019 WARN [http-nio-8080-exec-1] c.z.h.HikariConfig [HikariConfig.java:1008] {} - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
-2024-04-05 14:43:34,934 WARN [http-nio-8080-exec-1] c.z.h.HikariConfig [HikariConfig.java:1008] {} - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
-2024-04-05 14:53:30,202 WARN [http-nio-8080-exec-1] c.z.h.HikariConfig [HikariConfig.java:1008] {} - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
-2024-04-05 14:58:13,050 WARN [http-nio-8080-exec-1] c.z.h.HikariConfig [HikariConfig.java:1008] {} - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
-2024-04-05 15:42:34,365 WARN [http-nio-8080-exec-1] c.z.h.HikariConfig [HikariConfig.java:1008] {} - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
-2024-04-05 15:50:47,485 WARN [http-nio-8080-exec-1] c.z.h.HikariConfig [HikariConfig.java:1008] {} - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
-2024-04-05 17:35:50,015 WARN [http-nio-8080-exec-1] c.z.h.HikariConfig [HikariConfig.java:1008] {} - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
-2024-04-05 17:40:04,659 WARN [http-nio-8080-exec-1] c.z.h.HikariConfig [HikariConfig.java:1008] {} - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
-2024-04-05 17:53:53,922 WARN [http-nio-8080-exec-1] o.a.c.u.SessionIdGeneratorBase [DirectJDKLog.java:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [958] milliseconds.
-2024-04-05 19:44:15,648 WARN [http-nio-8080-exec-1] c.z.h.HikariConfig [HikariConfig.java:1008] {} - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
-2024-04-05 19:44:23,795 WARN [http-nio-8080-exec-6] o.a.c.u.SessionIdGeneratorBase [DirectJDKLog.java:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [863] milliseconds.
-2024-04-05 19:48:20,029 WARN [http-nio-8080-exec-1] c.z.h.HikariConfig [HikariConfig.java:1008] {} - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
-2024-04-05 19:48:25,268 WARN [http-nio-8080-exec-3] o.a.c.u.SessionIdGeneratorBase [DirectJDKLog.java:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [951] milliseconds.
-2024-04-05 19:49:06,066 WARN [http-nio-8080-exec-1] c.z.h.HikariConfig [HikariConfig.java:1008] {} - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
-2024-04-05 19:49:13,982 WARN [http-nio-8080-exec-5] o.a.c.u.SessionIdGeneratorBase [DirectJDKLog.java:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [837] milliseconds.
-2024-04-05 19:51:29,328 WARN [http-nio-8080-exec-1] c.z.h.HikariConfig [HikariConfig.java:1008] {} - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
-2024-04-05 19:51:34,695 WARN [http-nio-8080-exec-7] o.a.c.u.SessionIdGeneratorBase [DirectJDKLog.java:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,072] milliseconds.
-2024-04-05 20:02:14,356 WARN [http-nio-8080-exec-1] c.z.h.HikariConfig [HikariConfig.java:1008] {} - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
-2024-04-05 20:02:23,122 WARN [http-nio-8080-exec-8] o.a.c.u.SessionIdGeneratorBase [DirectJDKLog.java:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,060] milliseconds.
+2024-04-10 10:08:33,135 WARN [main] c.z.h.HikariConfig [HikariConfig.java:1008] {} - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2024-04-10 10:10:52,692 WARN [main] c.z.h.HikariConfig [HikariConfig.java:1008] {} - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2024-04-10 10:26:39,967 WARN [main] c.z.h.HikariConfig [HikariConfig.java:1008] {} - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2024-04-10 10:28:11,160 WARN [main] c.z.h.HikariConfig [HikariConfig.java:1008] {} - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2024-04-10 11:57:14,477 WARN [http-nio-8080-exec-1] c.z.h.HikariConfig [HikariConfig.java:1008] {} - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2024-04-10 11:57:26,950 WARN [http-nio-8080-exec-9] o.a.c.u.SessionIdGeneratorBase [DirectJDKLog.java:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [911] milliseconds.
+2024-04-10 12:12:28,872 WARN [http-nio-8080-exec-1] c.z.h.HikariConfig [HikariConfig.java:1008] {} - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
