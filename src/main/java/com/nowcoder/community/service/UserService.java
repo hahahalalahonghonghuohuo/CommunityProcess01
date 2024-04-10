@@ -186,5 +186,9 @@ public class UserService implements CommunityConstant {
         loginTicketMapper.updateStatus(ticket, 1);
     }
 
+    /** 根据 ticket 凭证返回 LoginTicket */
+    public LoginTicket findLoginTicket(String ticket) {
+        return loginTicketMapper.selectByTicket(ticket);
+    }
 
 }
