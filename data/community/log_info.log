@@ -26,3 +26,33 @@
 2024-04-11 20:01:40,729 INFO [Thread-8] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
 2024-04-11 20:01:40,730 INFO [Thread-8] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
 2024-04-11 20:01:40,738 INFO [Thread-8] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2024-04-11 22:01:35,327 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:50] Starting SensitiveTests on Windows with PID 17640 (started by User1 in E:\JAVA\work\community)
+2024-04-11 22:01:35,328 INFO [main] c.n.c.SensitiveTests [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2024-04-11 22:01:36,852 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2024-04-11 22:01:36,965 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2024-04-11 22:01:37,141 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:59] Started SensitiveTests in 2.129 seconds (JVM running for 2.634)
+2024-04-11 22:01:37,498 INFO [Thread-2] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2024-04-11 22:04:13,113 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:50] Starting SensitiveTests on Windows with PID 20912 (started by User1 in E:\JAVA\work\community)
+2024-04-11 22:04:13,114 INFO [main] c.n.c.SensitiveTests [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2024-04-11 22:04:14,663 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2024-04-11 22:04:14,811 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2024-04-11 22:04:15,029 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:59] Started SensitiveTests in 2.19 seconds (JVM running for 2.648)
+2024-04-11 22:04:15,332 INFO [Thread-2] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2024-04-11 22:08:52,504 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:50] Starting SensitiveTests on Windows with PID 31792 (started by User1 in E:\JAVA\work\community)
+2024-04-11 22:08:52,505 INFO [main] c.n.c.SensitiveTests [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2024-04-11 22:08:53,994 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2024-04-11 22:08:54,109 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2024-04-11 22:08:54,265 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:59] Started SensitiveTests in 1.985 seconds (JVM running for 2.357)
+2024-04-11 22:08:54,557 INFO [Thread-2] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2024-04-11 22:13:02,514 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:50] Starting SensitiveTests on Windows with PID 32564 (started by User1 in E:\JAVA\work\community)
+2024-04-11 22:13:02,515 INFO [main] c.n.c.SensitiveTests [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2024-04-11 22:13:04,025 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2024-04-11 22:13:04,170 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2024-04-11 22:13:04,321 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:59] Started SensitiveTests in 2.032 seconds (JVM running for 2.43)
+2024-04-11 22:13:04,613 INFO [Thread-2] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2024-04-11 22:13:46,102 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:50] Starting SensitiveTests on Windows with PID 32324 (started by User1 in E:\JAVA\work\community)
+2024-04-11 22:13:46,103 INFO [main] c.n.c.SensitiveTests [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2024-04-11 22:13:47,519 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2024-04-11 22:13:47,640 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2024-04-11 22:13:47,794 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:59] Started SensitiveTests in 1.905 seconds (JVM running for 2.275)
+2024-04-11 22:13:48,078 INFO [Thread-2] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
