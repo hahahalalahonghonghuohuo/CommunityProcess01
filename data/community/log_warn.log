@@ -4,3 +4,11 @@
 2024-04-22 12:17:33,627 WARN [http-nio-8080-exec-1] c.z.h.HikariConfig [HikariConfig.java:1008] {} - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
 2024-04-22 17:11:56,395 WARN [main] c.z.h.HikariConfig [HikariConfig.java:1008] {} - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
 2024-04-22 17:20:37,142 WARN [main] c.z.h.HikariConfig [HikariConfig.java:1008] {} - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2024-04-22 21:21:21,902 WARN [http-nio-8080-exec-1] c.z.h.HikariConfig [HikariConfig.java:1008] {} - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2024-04-22 21:31:18,212 WARN [http-nio-8080-exec-1] c.z.h.HikariConfig [HikariConfig.java:1008] {} - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2024-04-22 21:47:28,279 WARN [http-nio-8080-exec-1] c.z.h.HikariConfig [HikariConfig.java:1008] {} - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2024-04-22 21:54:53,452 WARN [http-nio-8080-exec-1] c.z.h.HikariConfig [HikariConfig.java:1008] {} - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2024-04-22 22:04:43,825 WARN [http-nio-8080-exec-1] c.z.h.HikariConfig [HikariConfig.java:1008] {} - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2024-04-22 22:08:59,014 WARN [http-nio-8080-exec-1] c.z.h.HikariConfig [HikariConfig.java:1008] {} - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2024-04-22 22:09:40,263 WARN [http-nio-8080-exec-1] c.z.h.HikariConfig [HikariConfig.java:1008] {} - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2024-04-22 22:28:32,782 WARN [http-nio-8080-exec-1] c.z.h.HikariConfig [HikariConfig.java:1008] {} - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
