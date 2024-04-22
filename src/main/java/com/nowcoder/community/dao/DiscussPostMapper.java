@@ -30,7 +30,7 @@ public interface DiscussPostMapper {
     /** 根据帖子 id 查询帖子的详细信息 */
     DiscussPost selectDiscussPostById(int id);
 
-
+    int updateCommentCount(int id, int commentCount);
 
 
 
