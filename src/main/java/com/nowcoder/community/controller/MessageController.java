@@ -5,6 +5,7 @@ import com.nowcoder.community.entity.Page;
 import com.nowcoder.community.entity.User;
 import com.nowcoder.community.service.MessageService;
 import com.nowcoder.community.service.UserService;
+import com.nowcoder.community.util.CommunityUtil;
 import com.nowcoder.community.util.HostHolder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -12,11 +13,9 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * @Author: yyp
@@ -74,6 +73,19 @@ public class MessageController {
 
     }
 
+    private List<Integer> getLetterIds(List<Message> letterList) {
+        List<Integer> ids = new ArrayList();
+        if (letterList != null) {
+            for (Message message : letterList) {
+                if (hostHolder.getUser().getId() == message.getToId() && message.getStatus() == 0) {
+                    ids.add(message.getId());
+                }
+            }
+        }
+
+        return ids;
+    }
+
     @RequestMapping(path = "/letter/detail/{conversationId}", method = RequestMethod.GET)
     public String getLetterDetail(@PathVariable("conversationId") String conversationId, Page page, Model model) {
         // 分页信息
@@ -97,6 +109,12 @@ public class MessageController {
         // 查询私信的目标
         model.addAttribute("target", getLetterTarget(conversationId));
 
+        // 将私信列表中未读消息提取出来并设置成已读状态
+        List<Integer> ids = getLetterIds(letterList);
+        if (!ids.isEmpty()) {
+            messageService.readMessage(ids);
+        }
+
         return "/site/letter-detail";
 
 
@@ -114,7 +132,29 @@ public class MessageController {
         }
     }
 
+    @RequestMapping(path = "/letter/send", method = RequestMethod.POST)
+    @ResponseBody
+    public String sendLetter(String toName, String content) {
+        User target = userService.findUserByName(toName);
+        if (target == null) {
+            return CommunityUtil.getJSONString(1, "目标用户不存在!");
+        }
 
+        Message message = new Message();
+        message.setFromId(hostHolder.getUser().getId());;
+        message.setToId(target.getId());
+        if (message.getFromId() < message.getToId()) {
+            message.setConversationId(message.getFromId() + "_" + message.getToId());
+        } else {
+            message.setConversationId(message.getToId() + "_" + message.getFromId());
+        }
+
+        message.setContent(content);
+        message.setCreateTime(new Date());
+        messageService.addMessage(message);
+
+        return CommunityUtil.getJSONString(0);
+    }
 
 
 }
