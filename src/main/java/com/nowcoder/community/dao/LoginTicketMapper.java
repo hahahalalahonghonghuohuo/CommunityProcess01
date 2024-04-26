@@ -12,6 +12,7 @@ import org.apache.ibatis.annotations.*;
 
 // @Mapper 注解表示是一个数据访问的对象, 需要容器来管理
 @Mapper
+@Deprecated
 public interface LoginTicketMapper {
 
     @Insert({
