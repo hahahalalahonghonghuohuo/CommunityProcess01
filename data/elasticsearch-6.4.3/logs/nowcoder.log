@@ -127,3 +127,69 @@ com.fasterxml.jackson.core.JsonParseException: Unexpected character ('“' (code
 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
 	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_102]
+[2024-04-27T10:43:20,252][INFO ][o.e.c.m.MetaDataCreateIndexService] [kJ8CedC] [discusspost] creating index, cause [api], templates [], shards [6]/[3], mappings []
+[2024-04-27T10:43:20,486][INFO ][o.e.c.m.MetaDataMappingService] [kJ8CedC] [discusspost/At_5ks5LRE2e4rSKKoBUFg] create_mapping [_doc]
+[2024-04-27T10:43:22,508][INFO ][o.e.c.m.MetaDataMappingService] [kJ8CedC] [discusspost/At_5ks5LRE2e4rSKKoBUFg] update_mapping [_doc]
+[2024-04-27T15:16:31,835][INFO ][o.e.n.Node               ] [kJ8CedC] stopping ...
+[2024-04-27T15:16:31,921][INFO ][o.e.x.w.WatcherService   ] [kJ8CedC] stopping watch service, reason [shutdown initiated]
+[2024-04-27T15:16:32,004][INFO ][o.e.x.m.j.p.l.CppLogMessageHandler] [controller/6248] [Main.cc@148] Ml controller exiting
+[2024-04-27T15:16:32,007][INFO ][o.e.x.m.j.p.NativeController] Native controller process has stopped - no new native processes can be started
+[2024-04-27T15:16:32,100][INFO ][o.e.n.Node               ] [kJ8CedC] stopped
+[2024-04-27T15:16:32,100][INFO ][o.e.n.Node               ] [kJ8CedC] closing ...
+[2024-04-27T15:16:32,132][INFO ][o.e.n.Node               ] [kJ8CedC] closed
+[2024-04-27T15:27:54,359][INFO ][o.e.n.Node               ] [] initializing ...
+[2024-04-27T15:27:54,390][INFO ][o.e.e.NodeEnvironment    ] [kJ8CedC] using [1] data paths, mounts [[SoftWare_1 (E:)]], net usable_space [85.9gb], net total_space [117.1gb], types [NTFS]
+[2024-04-27T15:27:54,390][INFO ][o.e.e.NodeEnvironment    ] [kJ8CedC] heap size [989.8mb], compressed ordinary object pointers [true]
+[2024-04-27T15:27:54,422][INFO ][o.e.n.Node               ] [kJ8CedC] node name derived from node ID [kJ8CedCJRw6M7Eq8eD1H5A]; set [node.name] to override
+[2024-04-27T15:27:54,422][INFO ][o.e.n.Node               ] [kJ8CedC] version[6.4.3], pid[15968], build[default/zip/fe40335/2018-10-30T23:17:19.084789Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_102/25.102-b14]
+[2024-04-27T15:27:54,422][INFO ][o.e.n.Node               ] [kJ8CedC] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=C:\Users\User1\AppData\Local\Temp\elasticsearch, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Delasticsearch, -Des.path.home=E:\JAVA\elasticsearch-6.4.3\startUp\elasticsearch-6.4.3, -Des.path.conf=E:\JAVA\elasticsearch-6.4.3\startUp\elasticsearch-6.4.3\config, -Des.distribution.flavor=default, -Des.distribution.type=zip]
+[2024-04-27T15:27:55,321][INFO ][o.e.p.PluginsService     ] [kJ8CedC] loaded module [aggs-matrix-stats]
+[2024-04-27T15:27:55,321][INFO ][o.e.p.PluginsService     ] [kJ8CedC] loaded module [analysis-common]
+[2024-04-27T15:27:55,321][INFO ][o.e.p.PluginsService     ] [kJ8CedC] loaded module [ingest-common]
+[2024-04-27T15:27:55,321][INFO ][o.e.p.PluginsService     ] [kJ8CedC] loaded module [lang-expression]
+[2024-04-27T15:27:55,321][INFO ][o.e.p.PluginsService     ] [kJ8CedC] loaded module [lang-mustache]
+[2024-04-27T15:27:55,321][INFO ][o.e.p.PluginsService     ] [kJ8CedC] loaded module [lang-painless]
+[2024-04-27T15:27:55,321][INFO ][o.e.p.PluginsService     ] [kJ8CedC] loaded module [mapper-extras]
+[2024-04-27T15:27:55,321][INFO ][o.e.p.PluginsService     ] [kJ8CedC] loaded module [parent-join]
+[2024-04-27T15:27:55,321][INFO ][o.e.p.PluginsService     ] [kJ8CedC] loaded module [percolator]
+[2024-04-27T15:27:55,321][INFO ][o.e.p.PluginsService     ] [kJ8CedC] loaded module [rank-eval]
+[2024-04-27T15:27:55,321][INFO ][o.e.p.PluginsService     ] [kJ8CedC] loaded module [reindex]
+[2024-04-27T15:27:55,321][INFO ][o.e.p.PluginsService     ] [kJ8CedC] loaded module [repository-url]
+[2024-04-27T15:27:55,321][INFO ][o.e.p.PluginsService     ] [kJ8CedC] loaded module [transport-netty4]
+[2024-04-27T15:27:55,321][INFO ][o.e.p.PluginsService     ] [kJ8CedC] loaded module [tribe]
+[2024-04-27T15:27:55,321][INFO ][o.e.p.PluginsService     ] [kJ8CedC] loaded module [x-pack-core]
+[2024-04-27T15:27:55,321][INFO ][o.e.p.PluginsService     ] [kJ8CedC] loaded module [x-pack-deprecation]
+[2024-04-27T15:27:55,321][INFO ][o.e.p.PluginsService     ] [kJ8CedC] loaded module [x-pack-graph]
+[2024-04-27T15:27:55,321][INFO ][o.e.p.PluginsService     ] [kJ8CedC] loaded module [x-pack-logstash]
+[2024-04-27T15:27:55,321][INFO ][o.e.p.PluginsService     ] [kJ8CedC] loaded module [x-pack-ml]
+[2024-04-27T15:27:55,321][INFO ][o.e.p.PluginsService     ] [kJ8CedC] loaded module [x-pack-monitoring]
+[2024-04-27T15:27:55,321][INFO ][o.e.p.PluginsService     ] [kJ8CedC] loaded module [x-pack-rollup]
+[2024-04-27T15:27:55,321][INFO ][o.e.p.PluginsService     ] [kJ8CedC] loaded module [x-pack-security]
+[2024-04-27T15:27:55,321][INFO ][o.e.p.PluginsService     ] [kJ8CedC] loaded module [x-pack-sql]
+[2024-04-27T15:27:55,321][INFO ][o.e.p.PluginsService     ] [kJ8CedC] loaded module [x-pack-upgrade]
+[2024-04-27T15:27:55,321][INFO ][o.e.p.PluginsService     ] [kJ8CedC] loaded module [x-pack-watcher]
+[2024-04-27T15:27:55,321][INFO ][o.e.p.PluginsService     ] [kJ8CedC] loaded plugin [analysis-ik]
+[2024-04-27T15:27:58,680][INFO ][o.e.x.s.a.s.FileRolesStore] [kJ8CedC] parsed [0] roles from file [E:\JAVA\elasticsearch-6.4.3\startUp\elasticsearch-6.4.3\config\roles.yml]
+[2024-04-27T15:27:59,104][INFO ][o.e.x.m.j.p.l.CppLogMessageHandler] [controller/11092] [Main.cc@109] controller (64 bit): Version 6.4.3 (Build 7a0781676dd492) Copyright (c) 2018 Elasticsearch BV
+[2024-04-27T15:27:59,356][DEBUG][o.e.a.ActionModule       ] Using REST wrapper from plugin org.elasticsearch.xpack.security.Security
+[2024-04-27T15:27:59,466][INFO ][o.e.d.DiscoveryModule    ] [kJ8CedC] using discovery type [zen]
+[2024-04-27T15:27:59,813][INFO ][o.e.n.Node               ] [kJ8CedC] initialized
+[2024-04-27T15:27:59,813][INFO ][o.e.n.Node               ] [kJ8CedC] starting ...
+[2024-04-27T15:28:05,565][INFO ][o.e.t.TransportService   ] [kJ8CedC] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2024-04-27T15:28:08,652][INFO ][o.e.c.s.MasterService    ] [kJ8CedC] zen-disco-elected-as-master ([0] nodes joined)[, ], reason: new_master {kJ8CedC}{kJ8CedCJRw6M7Eq8eD1H5A}{vsX-Jim_RFGzHuVHqw5zzA}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=16849293312, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true}
+[2024-04-27T15:28:08,652][INFO ][o.e.c.s.ClusterApplierService] [kJ8CedC] new_master {kJ8CedC}{kJ8CedCJRw6M7Eq8eD1H5A}{vsX-Jim_RFGzHuVHqw5zzA}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=16849293312, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true}, reason: apply cluster state (from master [master {kJ8CedC}{kJ8CedCJRw6M7Eq8eD1H5A}{vsX-Jim_RFGzHuVHqw5zzA}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=16849293312, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)[, ]]])
+[2024-04-27T15:28:08,705][INFO ][o.w.a.d.Monitor          ] try load config from E:\JAVA\elasticsearch-6.4.3\startUp\elasticsearch-6.4.3\config\analysis-ik\IKAnalyzer.cfg.xml
+[2024-04-27T15:28:08,705][INFO ][o.w.a.d.Monitor          ] try load config from E:\JAVA\elasticsearch-6.4.3\startUp\elasticsearch-6.4.3\plugins\ik\config\IKAnalyzer.cfg.xml
+[2024-04-27T15:28:09,098][WARN ][o.e.x.s.a.s.m.NativeRoleMappingStore] [kJ8CedC] Failed to clear cache for realms [[]]
+[2024-04-27T15:28:09,129][INFO ][o.e.l.LicenseService     ] [kJ8CedC] license [0888af7a-8575-41d9-b109-cb8170856be7] mode [basic] - valid
+[2024-04-27T15:28:09,153][INFO ][o.e.g.GatewayService     ] [kJ8CedC] recovered [2] indices into cluster_state
+[2024-04-27T15:28:09,453][INFO ][o.e.c.r.a.AllocationService] [kJ8CedC] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test][3], [test][2]] ...]).
+[2024-04-27T15:28:12,889][INFO ][o.e.x.s.t.n.SecurityNetty4HttpServerTransport] [kJ8CedC] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2024-04-27T15:28:12,889][INFO ][o.e.n.Node               ] [kJ8CedC] started
+[2024-04-27T15:33:14,389][INFO ][o.e.n.Node               ] [kJ8CedC] stopping ...
+[2024-04-27T15:33:14,424][INFO ][o.e.x.w.WatcherService   ] [kJ8CedC] stopping watch service, reason [shutdown initiated]
+[2024-04-27T15:33:14,938][INFO ][o.e.x.m.j.p.l.CppLogMessageHandler] [controller/11092] [Main.cc@148] Ml controller exiting
+[2024-04-27T15:33:14,941][INFO ][o.e.x.m.j.p.NativeController] Native controller process has stopped - no new native processes can be started
+[2024-04-27T15:33:15,023][INFO ][o.e.n.Node               ] [kJ8CedC] stopped
+[2024-04-27T15:33:15,024][INFO ][o.e.n.Node               ] [kJ8CedC] closing ...
+[2024-04-27T15:33:15,036][INFO ][o.e.n.Node               ] [kJ8CedC] closed
