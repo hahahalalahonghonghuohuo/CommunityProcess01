@@ -69,3 +69,16 @@
 2024-04-27 15:53:36,094 WARN [http-nio-8080-exec-1] c.z.h.HikariConfig [HikariConfig.java:1008] {} - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
 2024-04-27 16:02:57,770 WARN [http-nio-8080-exec-1] c.z.h.HikariConfig [HikariConfig.java:1008] {} - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
 2024-04-27 16:11:23,058 WARN [http-nio-8080-exec-1] c.z.h.HikariConfig [HikariConfig.java:1008] {} - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2024-04-27 16:20:53,033 WARN [http-nio-8080-exec-1] c.z.h.HikariConfig [HikariConfig.java:1008] {} - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2024-04-27 16:26:59,896 WARN [http-nio-8080-exec-1] c.z.h.HikariConfig [HikariConfig.java:1008] {} - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2024-04-27 19:55:56,546 WARN [http-nio-8080-exec-1] c.z.h.HikariConfig [HikariConfig.java:1008] {} - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2024-04-27 19:55:57,989 WARN [http-nio-8080-exec-1] o.a.c.u.SessionIdGeneratorBase [DirectJDKLog.java:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,063] milliseconds.
+2024-04-27 19:59:06,616 WARN [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Cannot deserialize session attribute [SPRING_SECURITY_CONTEXT] for session [8E9CEE1BBC6FE0CA3F56C7679DA71284]
+2024-04-27 19:59:16,918 WARN [http-nio-8080-exec-1] c.z.h.HikariConfig [HikariConfig.java:1008] {} - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2024-04-27 20:06:09,198 WARN [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Cannot deserialize session attribute [SPRING_SECURITY_CONTEXT] for session [8E9CEE1BBC6FE0CA3F56C7679DA71284]
+2024-04-27 20:06:19,999 WARN [http-nio-8080-exec-1] c.z.h.HikariConfig [HikariConfig.java:1008] {} - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2024-04-27 20:19:41,172 WARN [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Cannot deserialize session attribute [SPRING_SECURITY_CONTEXT] for session [8E9CEE1BBC6FE0CA3F56C7679DA71284]
+2024-04-27 20:19:42,083 WARN [http-nio-8080-exec-1] c.z.h.HikariConfig [HikariConfig.java:1008] {} - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2024-04-27 20:27:56,132 WARN [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Cannot deserialize session attribute [SPRING_SECURITY_CONTEXT] for session [8E9CEE1BBC6FE0CA3F56C7679DA71284]
+2024-04-27 20:27:57,190 WARN [http-nio-8080-exec-1] c.z.h.HikariConfig [HikariConfig.java:1008] {} - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2024-04-27 20:27:58,206 WARN [http-nio-8080-exec-1] o.a.c.u.SessionIdGeneratorBase [DirectJDKLog.java:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [977] milliseconds.

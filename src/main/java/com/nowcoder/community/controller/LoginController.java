@@ -12,6 +12,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.CookieValue;
@@ -168,6 +169,8 @@ public class LoginController implements CommunityConstant {
     @RequestMapping(path = "/logout", method = RequestMethod.GET)
     public String logout(@CookieValue("ticket") String ticket) {
         userService.logout(ticket);
+        // 清理 Context
+        SecurityContextHolder.clearContext();
         // 虽然我们有 get 请求的 login 和 post 请求的 login, 但在重定向时, 默认重定向到 get 请求的 login
         return "redirect:/login";
     }
