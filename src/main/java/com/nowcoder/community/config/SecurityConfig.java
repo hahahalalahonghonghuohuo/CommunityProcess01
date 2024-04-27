@@ -52,6 +52,19 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter implements Comm
                         AUTHORITY_ADMIN,
                         AUTHORITY_MODERATOR
                 )
+                .antMatchers(
+                        "/discuss/top",
+                        "/discuss/wonderful"
+                )
+                .hasAnyAuthority(
+                        AUTHORITY_MODERATOR
+                )
+                .antMatchers(
+                        "/discuss/delete"
+                )
+                .hasAnyAuthority(
+                        AUTHORITY_ADMIN
+                )
                 .anyRequest().permitAll()
                 .and().csrf().disable();
 
@@ -90,10 +103,5 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter implements Comm
         // Security 的底层默认会拦截 /logout 请求, 进行退出处理
         // 覆盖它默认的逻辑, 才能执行自己的退出的代码
         http.logout().logoutUrl("/securitylogout");
-
-
-
-
-
     }
 }
