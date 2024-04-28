@@ -18,7 +18,7 @@ __consumer_offsets 49 0
 __consumer_offsets 47 0
 __consumer_offsets 16 0
 test 0 1
-__consumer_offsets 28 15901
+__consumer_offsets 28 15945
 delete 0 4
 __consumer_offsets 31 0
 __consumer_offsets 36 0
@@ -28,7 +28,7 @@ __consumer_offsets 3 0
 __consumer_offsets 18 0
 like 0 11
 comment 0 7
-__consumer_offsets 37 0
+__consumer_offsets 37 1
 __consumer_offsets 15 0
 __consumer_offsets 24 0
 __consumer_offsets 38 0
@@ -53,6 +53,6 @@ __consumer_offsets 5 0
 __consumer_offsets 26 0
 __consumer_offsets 29 0
 __consumer_offsets 34 0
-__consumer_offsets 10 1
+__consumer_offsets 10 3
 __consumer_offsets 32 0
 __consumer_offsets 40 0
