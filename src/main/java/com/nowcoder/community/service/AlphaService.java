@@ -10,7 +10,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Async;
-import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.TransactionDefinition;
 import org.springframework.transaction.TransactionStatus;
@@ -154,7 +153,7 @@ public class AlphaService {
     }
 
 
-    @Scheduled(initialDelay = 10000, fixedRate = 1000)
+    /*@Scheduled(initialDelay = 10000, fixedRate = 1000)*/
     public void execute2() {
         logger.debug("execute2");
     }

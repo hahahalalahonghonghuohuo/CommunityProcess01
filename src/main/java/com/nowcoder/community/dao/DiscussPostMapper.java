@@ -17,7 +17,7 @@ import java.util.List;
 public interface DiscussPostMapper {
 
     /** 查询帖子的方法 */
-    List<DiscussPost> selectDiscussPosts(int userId, int offset, int limit);
+    List<DiscussPost> selectDiscussPosts(int userId, int offset, int limit, int orderMode);
 
 
     // @Param 注解用于给参数取别名
@@ -37,6 +37,9 @@ public interface DiscussPostMapper {
 
     /** 修改帖子的状态 */
     int updateStatus(int id, int status);
+
+    /** 修改帖子的分数 */
+    int updateScore(int id, double score);
 
 
 
