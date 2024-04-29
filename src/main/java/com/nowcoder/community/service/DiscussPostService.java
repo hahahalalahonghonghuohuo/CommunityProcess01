@@ -102,6 +102,11 @@ public class DiscussPostService {
         return discussPostMapper.selectDiscussPosts(userId, offset, limit, orderMode);
     }
 
+    //查看我的帖子
+    public List<DiscussPost> findmyDiscussPosts(int userId, int offset, int limit) {
+        return discussPostMapper.findmyDiscussPosts(userId, offset, limit);
+    }
+
     public int findDiscussPostRows(int userId) {
         if (userId == 0) {
             return postRowsCache.get(userId);

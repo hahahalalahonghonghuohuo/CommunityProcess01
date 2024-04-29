@@ -17,8 +17,13 @@ import java.util.List;
 public interface DiscussPostMapper {
 
     /** 查询帖子的方法 */
-    List<DiscussPost> selectDiscussPosts(int userId, int offset, int limit, int orderMode);
+    List<DiscussPost> selectDiscussPosts(
+            @Param("userId") int userId,
+            @Param("offset") int offset,
+            @Param("limit") int limit,
+            @Param("orderMode") int orderMode);
 
+    List<DiscussPost> findmyDiscussPosts(@Param("userId") int userId, @Param("offset") int offset, @Param("limit") int limit);
 
     // @Param 注解用于给参数取别名
     // 如果方法只有一个参数, 并且在 <if> 中使用, 就必须加别名
@@ -40,6 +45,7 @@ public interface DiscussPostMapper {
 
     /** 修改帖子的分数 */
     int updateScore(int id, double score);
+
 
 
 

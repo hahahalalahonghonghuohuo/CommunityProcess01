@@ -1,10 +1,11 @@
 package com.nowcoder.community.controller;
 
 import com.nowcoder.community.annotation.LoginRequired;
+import com.nowcoder.community.entity.Comment;
+import com.nowcoder.community.entity.DiscussPost;
+import com.nowcoder.community.entity.Page;
 import com.nowcoder.community.entity.User;
-import com.nowcoder.community.service.FollowService;
-import com.nowcoder.community.service.LikeService;
-import com.nowcoder.community.service.UserService;
+import com.nowcoder.community.service.*;
 import com.nowcoder.community.util.CommunityConstant;
 import com.nowcoder.community.util.CommunityUtil;
 import com.nowcoder.community.util.HostHolder;
@@ -15,6 +16,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -25,6 +27,9 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.OutputStream;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -60,6 +65,12 @@ public class UserController implements CommunityConstant {
 
     @Autowired
     private FollowService followService;
+
+    @Autowired
+    private CommentService commentService;
+
+    @Autowired
+    private DiscussPostService discussPostService;
 
     @LoginRequired
     @RequestMapping(path = "/setting", method = RequestMethod.GET)
@@ -187,6 +198,54 @@ public class UserController implements CommunityConstant {
         return "/site/profile";
     }
 
+    /** 查看我的帖子 */
+    @GetMapping("/myPosts")
+    public String getMyPosts(int userId, Model model, Page page) {
+        page.setLimit(5);
+        page.setRows(discussPostService.findDiscussPostRows(userId));
+        page.setPath("/user/myPosts?userId=" + userId);
+        User user = userService.findUserById(userId);
+        List<DiscussPost> list = discussPostService.findmyDiscussPosts(userId, page.getOffset(), page.getLimit());
+        List<Map<String, Object>> discussPosts = new ArrayList<>();
+        if (list != null) {
+            for (DiscussPost post: list) {
+                Map<String, Object> map = new HashMap<>();
+                map.put("post", post);
+                map.put("user", userService.findUserById(post.getUserId()));
+                long likeCount = likeService.findEntityLikeCount(ENTITY_TYPE_POST, post.getId());
+                map.put("likeCount", likeCount);
+                discussPosts.add(map);
+            }
+        }
+
+        model.addAttribute("discussPosts", discussPosts);
+        model.addAttribute("counts", page.getRows());
+        model.addAttribute("user", user);
+        return "/site/my-post";
+    }
+
+    /** 查看我的回复 */
+    @GetMapping("/myReplies")
+    public String getMyReplies(int userId, Model model, Page page) {
+        page.setLimit(5);
+        page.setRows(commentService.findCommentCountByUserId(ENTITY_TYPE_POST, userId));
+        page.setPath("/user/myReplies?userId=" + userId);
+        User user = userService.findUserById(userId);
+        List<Comment> list = commentService.findCommentsByUserId(ENTITY_TYPE_POST, userId, page.getOffset(), page.getLimit());
+        List<Map<String, Object>> comments = new ArrayList<>();
+        if (list != null) {
+            for (Comment comment : list) {
+                Map<String, Object> map = new HashMap<>();
+                map.put("comment", comment);
+                map.put("title", discussPostService.findDiscussPostById(comment.getEntityId()).getTitle());
+                comments.add(map);
+            }
+        }
+        model.addAttribute("comments", comments);
+        model.addAttribute("counts", page.getRows());
+        model.addAttribute("user", user);
+        return "/site/my-reply";
+    }
 
 
 }
